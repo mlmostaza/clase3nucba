@@ -3,13 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Golos+Text:wght@600&family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
     <title>Clase01</title>
   </head>
   <body>
-    <div>
-      <h1>Bienvenido a mi perfil!</h1>
-      <img src="./asset/fotopresentacion.jpg" alt="Mostaza Leonel" />
-      <ul>
+    <div class="contenedorPrincipal">
+      <h1 class="tituloPrincipal">Bienvenido a mi perfil!</h1>
+      <div class="contenedorImagen">
+        <img class="fotoPerfil" src="./asset/fotopresentacion.jpg" alt="Mostaza Leonel" />
+      </div>
+      <ul class="lista">
         <li>nombre: <b>Mostaza Leonel</b></li>
         <li>edad: 28 años</li>
         <li>mail: leonelmostaza@hotmail.com</li>
@@ -28,7 +34,9 @@
         porro a tenetur. Sed fuga quis beatae officia vel officiis inventore
         quaerat! Voluptatem.
       </p>
-      <a href="https://www.linkedin.com/" target="_blank">mi linkedin</a>
+      <div class="contenedorLinkedin">
+        <a class="linkedin" href="https://www.linkedin.com/" target="_blank"><img src="./asset/logotipo-de-linkedin.png" alt="logotipoLinkedin"></a>
+      </div>
     </div>
     <form action="">
       <h3>Nombre</h3>
